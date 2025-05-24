@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/back1"
+    android:background="@drawable/background2"
     tools:context=".BuyMedicineDetailsActivity">
 
 
@@ -61,7 +61,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="26dp"
         android:text="@string/buy_medicine1"
-        android:textColor="@color/yellowLight"
+        android:textColor="#FE7F9C"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/buttonBMDAddToCart"
@@ -77,7 +77,7 @@
         android:layout_height="52dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="@android:color/holo_blue_bright"
+        android:backgroundTint="#FF68"
         android:text="@string/add_to_cart"
         android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toTopOf="@+id/buttonBMDBack"
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
         android:background="@drawable/btn_bg"
-        android:backgroundTint="@android:color/holo_blue_bright"
+        android:backgroundTint="#FF68"
         android:text="@string/back"
         android:textColor="@color/colorWhite"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -100,16 +100,18 @@
 
     <TextView
         android:id="@+id/textViewMainTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/_24x7_healthcare"
-        android:textColor="@color/purple_200"
+        android:layout_width="115dp"
+        android:layout_height="59dp"
+        android:fontFamily="cursive"
+        android:text="Medibot"
+        android:textColor="#FC8EAC"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.019" />
+        app:layout_constraintVertical_bias="0.023" />
 
 </android.support.constraint.ConstraintLayout>

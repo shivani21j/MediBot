@@ -16,13 +16,6 @@ This project is a comprehensive healthcare Android application developed using J
 - **Database**: SQLiteDB
 - **IDE**: Android Studio
 
-## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/healthcare-android-app.git
-    ```
-2. Open the project in Android Studio.
-3. Build and run the project on an Android emulator or physical device.
 
 ## Usage
 1. **Home Screen**: Access key features like booking appointments, purchasing medicines, and scheduling lab tests.
